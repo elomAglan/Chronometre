@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Chronomètre</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="chronometre">
+        <div class="tim">
+            <span id="hours">0h</span>:
+            <span id="minutes">0min</span>:
+            <span id="seconds">0s</span>:
+            <span id="milliseconds">0ms</span>
+        </div>
+        <div class="controls">
+            <button id="start" onclick="start()">Start</button>
+            <button id="stop"  onclick="stop()">Stop</button>
+            <button id="reset"  onclick="reset()">Reset</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
